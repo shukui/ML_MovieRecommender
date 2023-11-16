@@ -26,3 +26,4 @@ The dataset contains information about movies such as their titles, overviews, g
 ## How it works
 
 The project extracts the dataset features, transforms dataset column values, and calculates similarity via `cosine_similarity`.
+
