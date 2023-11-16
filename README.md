@@ -2,7 +2,7 @@
 
 ## Description
 
-In this project, I developed a machine learning model for a movie recommender system. The model is built using NumPy, Pandas, CSV, Matplotlib, Seaborn, and Scikit-learn. The model analyzes a dataset of movies and recommends similar movies based on the user's preferences.
+In this project, I developed a machine-learning model for a movie recommender system. The model is built using NumPy, Pandas, CSV, Matplotlib, Seaborn, and Scikit-learn. The model analyzes a dataset of movies, calculates the similarity, and recommends similar movies based on the user's preferences.
 
 ## Modules Used
 
@@ -22,4 +22,4 @@ This project uses a dataset of movies. The dataset is stored in two CSV files:
 
 ## How it works
 
-The project extracts the dataset features, transforms dataset column values, and calculates similarity via `cosine_similarity` from `sklearn. The model recommends similar movies based on the user's preferences.
+The project extracts the dataset features, transforms dataset column values, and calculates similarity via `cosine_similarity`.
