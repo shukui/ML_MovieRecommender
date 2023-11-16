@@ -1,6 +1,25 @@
-# ML_MovieRecommender
-Movie recommender based on similarity
+# Machine Learning Model of Movie Recommender System
+
+## Description
+
+In this project, I developed a machine learning model for a movie recommender system. The model is built using NumPy, Pandas, CSV, Matplotlib, Seaborn, and Scikit-learn. The model analyzes a dataset of movies and recommends similar movies based on the user's preferences.
+
+## Modules Used
+
+Here are the modules that this project uses:
+
+- NumPy
+- Pandas
+- CSV
+- Matplotlib
+- Seaborn
+- Scikit-learn
 
 ## Dataset
-tmdb_5000_movies.csv
-tmdb_5000_credits.csv
+
+This project uses a dataset of movies. The dataset is stored in two CSV files:   
+`tmdb_5000_movies.csv` and `tmdb_5000_credits.csv`. The dataset contains information about movies such as their titles, overviews, genres, keywords, cast, and crew. 
+
+## How it works
+
+The project extracts the dataset features, transforms dataset column values, and calculates similarity via `cosine_similarity` from `sklearn. The model recommends similar movies based on the user's preferences.
