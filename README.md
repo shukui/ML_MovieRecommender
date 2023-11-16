@@ -18,7 +18,9 @@ Here are the modules that this project uses:
 ## Dataset
 
 This project uses a dataset of movies. The dataset is stored in two CSV files:   
-`tmdb_5000_movies.csv` and `tmdb_5000_credits.csv`, the 2nd CSV file is too big to upload(about 39 Mb), you can download from: https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata      
+`tmdb_5000_movies.csv` and `tmdb_5000_credits.csv`.  
+The 2nd CSV file is too big to upload(about 39 Mb), you can download from:  
+https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata      
 The dataset contains information about movies such as their titles, overviews, genres, keywords, cast, and crew. 
 
 ## How it works
